@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API_INFO</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .table_info{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        table th,td{
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .add_info{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+            margin-top: 20px;
+        }
+
+        .add_info input{
+            padding: 5px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+
+        input[type='submit']:active{
+            background-color: aquamarine;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1  style="text-align: center;">Api Info</h1>
+    <div class="table_info">
+        <table border="">
+            <thead>
+                <th>Id</th>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Point</th>
+                <th>Rating</th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody class="show_info">
+             
+            </tbody>
+        </table>
+
+        <div class="add_info">
+            <input value="" class="code_api" type="text" name="" id="" placeholder="Code">
+            <input value="" class="name_api" type="text" name="" id="" placeholder="Name">
+            <input value="" class="gender_api" type="text" name="" id="" placeholder="Gender">
+            <input value="" class="point_api" type="text" name="" id="" placeholder="Point">
+            <input value="" class="rating_api" type="text" name="" id="" placeholder="Rating">
+            <input id="btn_add" type="submit" value="Thêm">
+            <input style="display: none;" id="btn_create" type="submit" value="Sửa">
+        </div>
+        <h1 style="margin: 20px 0;">
+           Danh sách sinh viên có Point trên 7
+        </h1>
+        <table style="margin-bottom: 100px;" border="">
+            <thead>
+                <th>Id</th>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Point</th>
+            </thead>
+            <tbody class="show_point">
+
+            </tbody>
+
+
+
+    </div>
+   
+</body>
+<script src="index.js"></script>
+
+
+</html>

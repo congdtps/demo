@@ -1,0 +1,36 @@
+{
+  "infos": [
+    {
+      "code": "PS40376",
+      "name": "Đỗ Thành Công",
+      "gender": "Nam",
+      "point": "7",
+      "rating": "7",
+      "id": 1
+    },
+    {
+      "code": "PS40427",
+      "name": "Nguyễn Hoàng Hưng",
+      "gender": "Nam",
+      "point": "6.8",
+      "rating": "6.8",
+      "id": 2
+    },
+    {
+      "code": "PS40454",
+      "name": "Nguyễn Ngọc Gia Bảo",
+      "gender": "Nam",
+      "point": "6.2",
+      "rating": "6.2",
+      "id": 3
+    },
+    {
+      "code": "PS40359",
+      "name": "Lê Thị Phước Sang",
+      "gender": "Nữ",
+      "point": "7.2",
+      "rating": "7",
+      "id": 4
+    }
+  ]
+}
